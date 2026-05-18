@@ -1,4 +1,4 @@
-[18/5/2026 1:29 pm] W: import os, asyncio, logging
+ import os, asyncio, logging
 from datetime import datetime
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
